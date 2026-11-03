@@ -46,6 +46,7 @@ export function SankeyChart({
   height = 780,
   labelMax = 16,
   legendLabels,
+  ariaLabel = "財源から会計を経て使途に至る予算の流れ",
 }: {
   nodes: InputNode[];
   links: SankeyLink[];
@@ -53,6 +54,7 @@ export function SankeyChart({
   height?: number;
   labelMax?: number;
   legendLabels?: Partial<Record<MOFLegendKey, string>>;
+  ariaLabel?: string;
 }) {
   const [hovered, setHovered] = useState<MOFLayoutNode<MOFBudgetNodeDetails> | null>(null);
   const [pointer, setPointer] = useState<{ x: number; y: number } | null>(null);
@@ -112,7 +114,7 @@ export function SankeyChart({
         className="w-full"
         style={{ height }}
         role="img"
-        aria-label="財源から会計を経て使途に至る予算の流れ"
+        aria-label={ariaLabel}
       >
         {/* 帯を先に描き、ノードを上に重ねる */}
         <g>
