@@ -1,9 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
+import { title, description, image, openGraph } from './lib/hayama/metadata';
+
 export const metadata: Metadata = {
-  title: '葉山町予算ビュー',
-  description: '葉山町の予算と決算を公表資料から可視化する非公式サイト',
+  metadataBase: new URL('https://budget.hayama.town'),
+  title,
+  description,
+  alternates: { canonical: '/' },
+  openGraph,
+  twitter: { card: 'summary_large_image', title, description, images: [image] },
 };
 
 export const viewport: Viewport = {

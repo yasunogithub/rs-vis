@@ -1,5 +1,5 @@
 // Build only the audited Hayama routes and their dependencies. The staging tree
-// deliberately has no public/ directory and therefore cannot export national data.
+// only the explicitly listed OGP image is copied from public/, never national data.
 import { mkdtemp, mkdir, cp, writeFile, symlink, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -15,9 +15,9 @@ if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error('Invalid Git commit SHA');
 if (git('status', '--porcelain', '--untracked-files=no')) throw new Error('Commit tracked changes before building so the source link is exact');
 const stage = await mkdtemp(join(tmpdir(), 'hayama-export-'));
 const files = [
-  'app/globals.css', 'app/layout.tsx', 'app/page.tsx', 'app/favicon.ico',
+  'app/globals.css', 'app/layout.tsx', 'app/page.tsx', 'app/favicon.ico', 'public/ogp-hayama.png',
   'app/budget-sankey/page.tsx', 'app/budget-sankey/layout.tsx', 'app/unavailable/page.tsx',
-  'app/lib/hayama/data.ts', 'app/lib/hayama/graph.ts', 'app/lib/hayama/projects.json', 'app/lib/hayama/project-search.ts', 'app/lib/mof-sankey-layout.ts', 'app/lib/mof-sankey-constants.ts',
+  'app/lib/hayama/metadata.ts', 'app/lib/hayama/data.ts', 'app/lib/hayama/graph.ts', 'app/lib/hayama/projects.json', 'app/lib/hayama/project-search.ts', 'app/lib/mof-sankey-layout.ts', 'app/lib/mof-sankey-constants.ts',
   'client/components/hayama/HayamaView.tsx', 'client/components/hayama/ProjectsView.tsx', 'client/components/mof-budget/SankeyChart.tsx', 'client/lib/formatBudget.ts',
   'types/sankey.ts', 'types/mof-budget-overview.ts', 'tailwind.config.ts', 'postcss.config.mjs', 'tsconfig.json',
 ];

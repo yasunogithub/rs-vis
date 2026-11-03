@@ -13,7 +13,7 @@
 
 ## 静的ビルド
 
-依存関係を `npm ci` で導入後、`npm run build` を実行すると `hayama-dist/` に静的サイトを出力する。このコマンドは、必要なファイルだけを一時ディレクトリにコピーして Next.js の static export を作る。元リポジトリの `public/`、国向けページ・API、ミドルウェアはビルド入力に含めない。`hayama-dist/` は生成物なのでビルド成功後に置き換わる。
+依存関係を `npm ci` で導入後、`npm run build` を実行すると `hayama-dist/` に静的サイトを出力する。このコマンドは、必要なファイルだけを一時ディレクトリにコピーして Next.js の static export を作る。元リポジトリの `public/` からは `ogp-hayama.png` のみを明示的に取り込み、国向けデータ・ページ・API、ミドルウェアはビルド入力に含めない。`hayama-dist/` は生成物なのでビルド成功後に置き換わる。
 
 Cloudflare では **生成した `hayama-dist/` のみ**を静的アセットとして配信すること。リポジトリ全体や元の `public/` を配信しない。Cloudflare 側の build / deploy command、出力先、未知のURLの404応答、希望ドメイン、HTTPSおよび実際の表示・図の操作は公開先で要確認。以前の Next.js の通常ビルドはこの隔離を保証せず、静的アセットがミドルウェアより先に配信される設定もあるため公開しない。
 
@@ -32,3 +32,5 @@ Workers Builds の Preview・Production の設定と既存 Worker のルート�
 町の「第五次葉山町総合計画 実施計画（2026年度当初予算）」PDF（全276ページ）のうち、各票に令和8年度と明記され、事業名・施策コード・所属・会計・本年度当初の事業費を抽出できた169件を掲載。記載が令和7年度の票、再掲・続きのページ、読み取り条件を満たさない票は除外しており、全事業の網羅を主張しない。会計と簡略番号で重複を検出する。数値は事業票に記載された千円で、金額と出典ページは機械的に読み取り、全件についてPDFテキストの事業費先頭値と比較した。2026年度9月補正や2025年度決算の額・評価結果ではなく、サンキー内訳との対応づけも行わない。町の原資料を参照するリンクを各項目に掲載する。
 
 抽出は原PDFと `pdftotext -layout` 出力に対して `python3 scripts/extract-hayama-plan.py SOURCE.pdf SOURCE-layout.txt`（PyMuPDF が必要）。正規データは `app/lib/hayama/projects.json`。町の一般のオープンデータ利用規約は[オープンデータページ](https://www.town.hayama.lg.jp/soshiki/seisaku/9/850.html)に掲載されるが、このPDFへの適用は未確認。出典の表示とリンクを維持し、元資料の権利表示等を変更しない。
+
+OGP画像は `assets/hayama-ogp.svg` から `npm run generate:hayama-ogp` で生成する。PNGは1200×630、使用する日本語フォントにより描画が変わるため生成後に表示を確認する。

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f4ee"/><stop offset="1" stop-color="#e5f5ef"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d4f2e9"/><stop offset="1" stop-color="#e6f7eb"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect x="42" y="39" width="1116" height="552" rx="30" fill="#fff" stroke="#e2e3df" stroke-width="2"/>
+  <rect x="78" y="76" width="1044" height="478" rx="22" fill="url(#panel)"/>
+  <g font-family="Hiragino Kaku Gothic ProN, Yu Gothic, Noto Sans CJK JP, sans-serif">
+    <rect x="112" y="109" width="111" height="42" rx="21" fill="#fff"/>
+    <text x="167.5" y="138" text-anchor="middle" font-size="20" font-weight="700" fill="#167f70">非公式</text>
+    <text x="112" y="224" font-size="53" font-weight="700" fill="#1f2937">葉山町予算ビュー</text>
+    <text x="113" y="285" font-size="27" font-weight="600" fill="#36545a">予算と決算を、わかりやすく。</text>
+    <text x="113" y="485" font-size="23" fill="#526b70">町のお金の流れと事業を、公開資料から。</text>
+    <text x="113" y="524" font-size="20" fill="#587473">budget.hayama.town</text>
+  </g>
+  <!-- Decorative flows only: no quantities or purported fiscal relationships. -->
+  <g opacity="0.95">
+    <path d="M 690 166 C 774 166 788 237 872 237 L 872 276 C 788 276 774 205 690 205 Z" fill="#8ccfb8"/>
+    <path d="M 690 229 C 773 229 790 276 872 276 L 872 304 C 790 304 773 257 690 257 Z" fill="#b0dfca"/>
+    <path d="M 690 284 C 773 284 790 304 872 304 L 872 328 C 790 328 773 308 690 308 Z" fill="#d1ead8"/>
+    <path d="M 894 237 C 970 237 975 176 1050 176 L 1050 216 C 975 216 970 277 894 277 Z" fill="#f2c5ae"/>
+    <path d="M 894 277 C 970 277 975 278 1050 278 L 1050 308 C 975 308 970 307 894 307 Z" fill="#f1d4bb"/>
+    <path d="M 894 307 C 970 307 975 367 1050 367 L 1050 390 C 975 390 970 330 894 330 Z" fill="#f6dfcd"/>
+    <rect x="674" y="163" width="17" height="45" rx="5" fill="#4db870"/><rect x="674" y="226" width="17" height="34" rx="5" fill="#4db870"/><rect x="674" y="281" width="17" height="30" rx="5" fill="#4db870"/>
+    <rect x="872" y="235" width="22" height="96" rx="5" fill="#2d7d46"/>
+    <rect x="1050" y="173" width="17" height="46" rx="5" fill="#e07040"/><rect x="1050" y="275" width="17" height="36" rx="5" fill="#e07040"/><rect x="1050" y="364" width="17" height="29" rx="5" fill="#e07040"/>
+  </g>
+</svg>
