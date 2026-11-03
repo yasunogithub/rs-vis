@@ -107,8 +107,10 @@
   --mirai-surface-rgb: 247 244 240;
   --mirai-surface-teal-rgb: 226 246 243;
 
-  /* 和文フォント（app/layout.tsx の next/font が --font-noto-sans-jp を注入する） */
+  /* 外部フォント取得に依存せず、端末の日本語フォントを使用する。 */
   --font-fallback: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  --font-noto-sans-jp: var(--font-fallback);
+  --font-lexend-giga: var(--font-fallback);
 }
 
 @layer base {
