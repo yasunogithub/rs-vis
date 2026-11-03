@@ -26,3 +26,9 @@ Cloudflare では **生成した `hayama-dist/` のみ**を静的アセットと
 現在確認された Workers Builds の Root directory `/hayama`、build command `bun run build`、deploy command `bunx wrangler deploy` に対応する。`hayama/package.json` の build はリポジトリルートの `npm ci` と `npm run build` を順に実行し、ルートの `package-lock.json` に従って依存を導入する。`hayama/bun.lock` は Wrangler とその依存を固定する。`hayama/wrangler.jsonc` は `../hayama-dist` の静的ファイルのみを assets として指定し、旧 `hayama/index.html` やルートの `public/` を配信しない。404 応答を指定する。
 
 Workers Builds の Preview・Production の設定と既存 Worker のルート、配備後の実際の内容とリンクを確認するまでは公開しない。ローカルでのビルド成功はクラウド上での配備成功を保証しない。
+
+## 実施計画の事業一覧
+
+町の「第五次葉山町総合計画 実施計画（2026年度当初予算）」PDF（全276ページ）のうち、各票に令和8年度と明記され、事業名・施策コード・所属・会計・本年度当初の事業費を抽出できた169件を掲載。記載が令和7年度の票、再掲・続きのページ、読み取り条件を満たさない票は除外しており、全事業の網羅を主張しない。会計と簡略番号で重複を検出する。数値は事業票に記載された千円で、金額と出典ページは機械的に読み取り、全件についてPDFテキストの事業費先頭値と比較した。2026年度9月補正や2025年度決算の額・評価結果ではなく、サンキー内訳との対応づけも行わない。町の原資料を参照するリンクを各項目に掲載する。
+
+抽出は原PDFと `pdftotext -layout` 出力に対して `python3 scripts/extract-hayama-plan.py SOURCE.pdf SOURCE-layout.txt`（PyMuPDF が必要）。正規データは `app/lib/hayama/projects.json`。町の一般のオープンデータ利用規約は[オープンデータページ](https://www.town.hayama.lg.jp/soshiki/seisaku/9/850.html)に掲載されるが、このPDFへの適用は未確認。出典の表示とリンクを維持し、元資料の権利表示等を変更しない。

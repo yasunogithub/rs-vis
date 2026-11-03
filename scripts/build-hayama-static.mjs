@@ -17,8 +17,8 @@ const stage = await mkdtemp(join(tmpdir(), 'hayama-export-'));
 const files = [
   'app/globals.css', 'app/layout.tsx', 'app/page.tsx', 'app/favicon.ico',
   'app/budget-sankey/page.tsx', 'app/budget-sankey/layout.tsx', 'app/unavailable/page.tsx',
-  'app/lib/hayama/data.ts', 'app/lib/hayama/graph.ts', 'app/lib/mof-sankey-layout.ts', 'app/lib/mof-sankey-constants.ts',
-  'client/components/hayama/HayamaView.tsx', 'client/components/mof-budget/SankeyChart.tsx', 'client/lib/formatBudget.ts',
+  'app/lib/hayama/data.ts', 'app/lib/hayama/graph.ts', 'app/lib/hayama/projects.json', 'app/lib/hayama/project-search.ts', 'app/lib/mof-sankey-layout.ts', 'app/lib/mof-sankey-constants.ts',
+  'client/components/hayama/HayamaView.tsx', 'client/components/hayama/ProjectsView.tsx', 'client/components/mof-budget/SankeyChart.tsx', 'client/lib/formatBudget.ts',
   'types/sankey.ts', 'types/mof-budget-overview.ts', 'tailwind.config.ts', 'postcss.config.mjs', 'tsconfig.json',
 ];
 try {

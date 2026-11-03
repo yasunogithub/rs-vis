@@ -2,6 +2,7 @@
   // Deliberately no Worker name or route: select and verify the target separately.
   // This file is not auto-selected by Wrangler; deployment requires --config.
   "compatibility_date": "2026-11-03",
+  "previews": {},
   "assets": {
     "directory": "./hayama-dist",
     "not_found_handling": "404-page"
