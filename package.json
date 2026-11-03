@@ -26,6 +26,7 @@
     "dev": "next dev --turbopack",
     "prebuild": "bash scripts/decompress-data.sh",
     "build": "next build",
+    "build:hayama": "node scripts/build-hayama-static.mjs",
     "start": "next start",
     "lint": "next lint --dir app --dir client --dir components --dir types",
     "check-traces": "node scripts/check-function-traces.mjs",
