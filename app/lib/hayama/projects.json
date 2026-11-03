@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "006343",
+    "account": "一般会計",
+    "code": "1-1-1",
+    "name": "教育情報ネットワーク管理事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 74350,
+    "page": 19
+  },
+  {
+    "id": "009786",
+    "account": "一般会計",
+    "code": "1-1-2",
+    "name": "小中一貫教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 1628,
+    "page": 20
+  },
+  {
+    "id": "006353",
+    "account": "一般会計",
+    "code": "1-1-3",
+    "name": "町費教職員等配置事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 27089,
+    "page": 22
+  },
+  {
+    "id": "006379",
+    "account": "一般会計",
+    "code": "1-1-4",
+    "name": "外国語教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 10880,
+    "page": 23
+  },
+  {
+    "id": "006359",
+    "account": "一般会計",
+    "code": "1-1-5",
+    "name": "学びづくり推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 892,
+    "page": 24
+  },
+  {
+    "id": "004031",
+    "account": "一般会計",
+    "code": "1-1-6",
+    "name": "教育調査研究事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 112,
+    "page": 25
+  },
+  {
+    "id": "004340",
+    "account": "一般会計",
+    "code": "1-1-7",
+    "name": "小学校教育振興事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 18107,
+    "page": 26
+  },
+  {
+    "id": "006369",
+    "account": "一般会計",
+    "code": "1-1-8",
+    "name": "小学校情操教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 400,
+    "page": 27
+  },
+  {
+    "id": "004375",
+    "account": "一般会計",
+    "code": "1-1-9",
+    "name": "小学校情報教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 27632,
+    "page": 28
+  },
+  {
+    "id": "004629",
+    "account": "一般会計",
+    "code": "1-1-10",
+    "name": "中学校教育振興事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 3107,
+    "page": 29
+  },
+  {
+    "id": "006375",
+    "account": "一般会計",
+    "code": "1-1-11",
+    "name": "中学校情操教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 200,
+    "page": 30
+  },
+  {
+    "id": "004645",
+    "account": "一般会計",
+    "code": "1-1-12",
+    "name": "中学校情報教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 17108,
+    "page": 31
+  },
+  {
+    "id": "005100",
+    "account": "一般会計",
+    "code": "1-1-13",
+    "name": "学校給食運営事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 190982,
+    "page": 32
+  },
+  {
+    "id": "004981",
+    "account": "一般会計",
+    "code": "1-1-14",
+    "name": "図書館サービス推進事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 4854,
+    "page": 33
+  },
+  {
+    "id": "006349",
+    "account": "一般会計",
+    "code": "1-2-1",
+    "name": "児童就学支援事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 242,
+    "page": 35
+  },
+  {
+    "id": "006355",
+    "account": "一般会計",
+    "code": "1-2-2",
+    "name": "児童生徒学校生活支援事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 65205,
+    "page": 36
+  },
+  {
+    "id": "006357",
+    "account": "一般会計",
+    "code": "1-2-3",
+    "name": "人権教育推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 76,
+    "page": 37
+  },
+  {
+    "id": "004049",
+    "account": "一般会計",
+    "code": "1-2-4",
+    "name": "教育相談事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 9344,
+    "page": 38
+  },
+  {
+    "id": "004057",
+    "account": "一般会計",
+    "code": "1-2-5",
+    "name": "教育支援教室（ヤシの実）管理事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 240,
+    "page": 39
+  },
+  {
+    "id": "004351",
+    "account": "一般会計",
+    "code": "1-2-6",
+    "name": "小学校特別支援学級振興事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 2214,
+    "page": 40
+  },
+  {
+    "id": "004664",
+    "account": "一般会計",
+    "code": "1-2-7",
+    "name": "中学校特別支援学級振興事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 965,
+    "page": 41
+  },
+  {
+    "id": "011964",
+    "account": "一般会計",
+    "code": "1-2-8",
+    "name": "フリースクール等利用児童・生徒支援事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 7200,
+    "page": 42
+  },
+  {
+    "id": "006211",
+    "account": "一般会計",
+    "code": "1-3-1",
+    "name": "生涯学習推進事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 580,
+    "page": 44
+  },
+  {
+    "id": "006229",
+    "account": "一般会計",
+    "code": "1-3-2",
+    "name": "家庭教育支援事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 267,
+    "page": 45
+  },
+  {
+    "id": "004729",
+    "account": "一般会計",
+    "code": "1-3-3",
+    "name": "社会人権教育啓発事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 57,
+    "page": 46
+  },
+  {
+    "id": "004829",
+    "account": "一般会計",
+    "code": "1-3-4",
+    "name": "青少年育成事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 3078,
+    "page": 47
+  },
+  {
+    "id": "004847",
+    "account": "一般会計",
+    "code": "1-3-5",
+    "name": "公民館教室等管理運営事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 292,
+    "page": 49
+  },
+  {
+    "id": "004865",
+    "account": "一般会計",
+    "code": "1-3-6",
+    "name": "資料収集保存事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 465,
+    "page": 50
+  },
+  {
+    "id": "004874",
+    "account": "一般会計",
+    "code": "1-3-7",
+    "name": "教育活動・調査研究事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 1161,
+    "page": 51
+  },
+  {
+    "id": "004996",
+    "account": "一般会計",
+    "code": "1-3-8",
+    "name": "資料整備事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 9428,
+    "page": 52
+  },
+  {
+    "id": "004973",
+    "account": "一般会計",
+    "code": "1-3-9",
+    "name": "読書活動推進事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 200,
+    "page": 53
+  },
+  {
+    "id": "005012",
+    "account": "一般会計",
+    "code": "1-3-10",
+    "name": "スポーツ振興事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 5562,
+    "page": 54
+  },
+  {
+    "id": "006325",
+    "account": "一般会計",
+    "code": "1-3-11",
+    "name": "マリンスポーツ振興事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 3117,
+    "page": 56
+  },
+  {
+    "id": "005079",
+    "account": "一般会計",
+    "code": "1-3-12",
+    "name": "学校体育施設開放事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 422,
+    "page": 57
+  },
+  {
+    "id": "009645",
+    "account": "一般会計",
+    "code": "1-5-1",
+    "name": "コミュニティ・スクール推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 658,
+    "page": 61
+  },
+  {
+    "id": "006345",
+    "account": "一般会計",
+    "code": "1-5-2",
+    "name": "地域連携・体験学習推進事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 5891,
+    "page": 62
+  },
+  {
+    "id": "006377",
+    "account": "一般会計",
+    "code": "1-5-3",
+    "name": "中学校部活動支援事業",
+    "department": "学校教育課",
+    "policy": "教育",
+    "amount": 6725,
+    "page": 63
+  },
+  {
+    "id": "006233",
+    "account": "一般会計",
+    "code": "1-5-4",
+    "name": "地域学校協働活動推進事業",
+    "department": "生涯学習課",
+    "policy": "教育",
+    "amount": 4302,
+    "page": 64
+  },
+  {
+    "id": "001949",
+    "account": "一般会計",
+    "code": "2-1-1",
+    "name": "放課後児童健全育成事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 145424,
+    "page": 67
+  },
+  {
+    "id": "001979",
+    "account": "一般会計",
+    "code": "2-1-2",
+    "name": "教育・保育給付支給事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 995284,
+    "page": 68
+  },
+  {
+    "id": "012019",
+    "account": "一般会計",
+    "code": "2-1-3",
+    "name": "乳児等のための支援給付事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 16960,
+    "page": 69
+  },
+  {
+    "id": "002022",
+    "account": "一般会計",
+    "code": "2-1-4",
+    "name": "保育園運営事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 55630,
+    "page": 70
+  },
+  {
+    "id": "001766",
+    "account": "一般会計",
+    "code": "2-2-1",
+    "name": "ひとり親家庭等医療費助成事業",
+    "department": "子ども育成課",
+    "policy": "子育ち・子育て",
+    "amount": 11944,
+    "page": 72
+  },
+  {
+    "id": "001777",
+    "account": "一般会計",
+    "code": "2-2-2",
+    "name": "子ども医療費助成事業",
+    "department": "子ども育成課",
+    "policy": "子育ち・子育て",
+    "amount": 153977,
+    "page": 73
+  },
+  {
+    "id": "001849",
+    "account": "一般会計",
+    "code": "2-2-3",
+    "name": "母子保健事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 45887,
+    "page": 74
+  },
+  {
+    "id": "001877",
+    "account": "一般会計",
+    "code": "2-2-4",
+    "name": "乳幼児等予防接種事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 57219,
+    "page": 75
+  },
+  {
+    "id": "001887",
+    "account": "一般会計",
+    "code": "2-2-5",
+    "name": "子育て支援推進事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 30490,
+    "page": 77
+  },
+  {
+    "id": "001900",
+    "account": "一般会計",
+    "code": "2-2-6",
+    "name": "養育医療給付事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 606,
+    "page": 78
+  },
+  {
+    "id": "001790",
+    "account": "一般会計",
+    "code": "2-3-1",
+    "name": "児童相談事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 2329,
+    "page": 80
+  },
+  {
+    "id": "001819",
+    "account": "一般会計",
+    "code": "2-3-2",
+    "name": "発達障害児等支援推進事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 142936,
+    "page": 82
+  },
+  {
+    "id": "001922",
+    "account": "一般会計",
+    "code": "2-3-3",
+    "name": "児童館等運営事業",
+    "department": "子ども育成課",
+    "policy": "子育て・子育ち",
+    "amount": 38189,
+    "page": 84
+  },
+  {
+    "id": "001293",
+    "account": "一般会計",
+    "code": "3-1-1",
+    "name": "民生委員（児童委員）活動事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 6074,
+    "page": 86
+  },
+  {
+    "id": "001309",
+    "account": "一般会計",
+    "code": "3-1-2",
+    "name": "各種福祉団体等補助金",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 131188,
+    "page": 87
+  },
+  {
+    "id": "001371",
+    "account": "一般会計",
+    "code": "3-1-3",
+    "name": "地域自殺対策強化事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 128,
+    "page": 88
+  },
+  {
+    "id": "001398",
+    "account": "一般会計",
+    "code": "3-1-4",
+    "name": "地域福祉計画推進事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 162,
+    "page": 90
+  },
+  {
+    "id": "011539",
+    "account": "一般会計",
+    "code": "3-1-5",
+    "name": "終活サポート事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 74,
+    "page": 91
+  },
+  {
+    "id": "001577",
+    "account": "一般会計",
+    "code": "3-1-6",
+    "name": "在宅高齢者住宅改修費助成事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 1800,
+    "page": 92
+  },
+  {
+    "id": "001599",
+    "account": "一般会計",
+    "code": "3-1-7",
+    "name": "生きがい対策交流事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 870,
+    "page": 93
+  },
+  {
+    "id": "001606",
+    "account": "一般会計",
+    "code": "3-1-8",
+    "name": "老人クラブ補助金交付事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 491,
+    "page": 94
+  },
+  {
+    "id": "005702",
+    "account": "介護保険特別会計",
+    "code": "3-2-1",
+    "name": "一般介護予防事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 10683,
+    "page": 96
+  },
+  {
+    "id": "001563",
+    "account": "一般会計",
+    "code": "3-3-1",
+    "name": "在宅高齢者福祉サービス事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 24992,
+    "page": 98
+  },
+  {
+    "id": "005720",
+    "account": "介護保険特別会計",
+    "code": "3-3-2",
+    "name": "介護予防・生活支援サービス事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 94681,
+    "page": 99
+  },
+  {
+    "id": "005735",
+    "account": "介護保険特別会計",
+    "code": "3-3-3",
+    "name": "包括的支援事業・任意事業費",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 102417,
+    "page": 100
+  },
+  {
+    "id": "001418",
+    "account": "一般会計",
+    "code": "3-4-1",
+    "name": "雇用報奨金支給事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 1440,
+    "page": 102
+  },
+  {
+    "id": "001422",
+    "account": "一般会計",
+    "code": "3-4-2",
+    "name": "意思疎通支援事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 1605,
+    "page": 103
+  },
+  {
+    "id": "001436",
+    "account": "一般会計",
+    "code": "3-4-3",
+    "name": "補装具給付事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 6750,
+    "page": 105
+  },
+  {
+    "id": "001440",
+    "account": "一般会計",
+    "code": "3-4-4",
+    "name": "障害児者医療費助成事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 80129,
+    "page": 106
+  },
+  {
+    "id": "001454",
+    "account": "一般会計",
+    "code": "3-4-5",
+    "name": "在宅障害者福祉対策推進事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 8500,
+    "page": 108
+  },
+  {
+    "id": "001458",
+    "account": "一般会計",
+    "code": "3-4-6",
+    "name": "在宅障害者福祉サービス事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 13767,
+    "page": 109
+  },
+  {
+    "id": "001472",
+    "account": "一般会計",
+    "code": "3-4-7",
+    "name": "心身障害者手当支給事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 8425,
+    "page": 110
+  },
+  {
+    "id": "001477",
+    "account": "一般会計",
+    "code": "3-4-8",
+    "name": "障害者自立支援給付事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 603200,
+    "page": 111
+  },
+  {
+    "id": "001506",
+    "account": "一般会計",
+    "code": "3-4-9",
+    "name": "障害者福祉施設利用者助成事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 4200,
+    "page": 113
+  },
+  {
+    "id": "001531",
+    "account": "一般会計",
+    "code": "3-4-10",
+    "name": "障害者施策推進事業",
+    "department": "福祉課",
+    "policy": "福祉",
+    "amount": 284,
+    "page": 114
+  },
+  {
+    "id": "002112",
+    "account": "一般会計",
+    "code": "4-1-1",
+    "name": "健康増進事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 5664,
+    "page": 116
+  },
+  {
+    "id": "002135",
+    "account": "一般会計",
+    "code": "4-1-2",
+    "name": "各種検診事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 33822,
+    "page": 117
+  },
+  {
+    "id": "002186",
+    "account": "一般会計",
+    "code": "4-1-3",
+    "name": "後期高齢者健診事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 28351,
+    "page": 118
+  },
+  {
+    "id": "010753",
+    "account": "一般会計",
+    "code": "4-1-4",
+    "name": "後期高齢者一体的事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 203,
+    "page": 119
+  },
+  {
+    "id": "011566",
+    "account": "一般会計",
+    "code": "4-1-5",
+    "name": "がん患者等支援事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 858,
+    "page": 121
+  },
+  {
+    "id": "002219",
+    "account": "一般会計",
+    "code": "4-1-6",
+    "name": "高齢者等インフルエンザワクチン予防接種事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 22993,
+    "page": 122
+  },
+  {
+    "id": "002227",
+    "account": "一般会計",
+    "code": "4-1-7",
+    "name": "高齢者等肺炎球菌ワクチン予防接種事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 1229,
+    "page": 123
+  },
+  {
+    "id": "009837",
+    "account": "一般会計",
+    "code": "4-1-8",
+    "name": "高齢者等新型コロナワクチン予防接種事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 49923,
+    "page": 124
+  },
+  {
+    "id": "011749",
+    "account": "一般会計",
+    "code": "4-1-9",
+    "name": "高齢者等帯状疱疹ワクチン予防接種事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 29008,
+    "page": 125
+  },
+  {
+    "id": "002244",
+    "account": "一般会計",
+    "code": "4-1-10",
+    "name": "風しん等予防接種事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 224,
+    "page": 126
+  },
+  {
+    "id": "005403",
+    "account": "国民健康保険特別会計",
+    "code": "4-1-11",
+    "name": "特定健康診査等事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 25461,
+    "page": 127
+  },
+  {
+    "id": "005416",
+    "account": "国民健康保険特別会計",
+    "code": "4-1-12",
+    "name": "保健指導事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 45,
+    "page": 128
+  },
+  {
+    "id": "011572",
+    "account": "国民健康保険特別会計",
+    "code": "4-1-13",
+    "name": "国保ヘルスアップ事業",
+    "department": "町民健康課",
+    "policy": "保健・医療",
+    "amount": 6023,
+    "page": 129
+  },
+  {
+    "id": "003660",
+    "account": "一般会計",
+    "code": "5-1-1",
+    "name": "防災訓練実施事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 1525,
+    "page": 135
+  },
+  {
+    "id": "003717",
+    "account": "一般会計",
+    "code": "5-1-2",
+    "name": "女性防火防災クラブ育成事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 780,
+    "page": 136
+  },
+  {
+    "id": "003737",
+    "account": "一般会計",
+    "code": "5-1-3",
+    "name": "自主防災組織支援事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 4355,
+    "page": 137
+  },
+  {
+    "id": "003395",
+    "account": "一般会計",
+    "code": "5-1-4",
+    "name": "消防出初式等事業費",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 144,
+    "page": 138
+  },
+  {
+    "id": "003514",
+    "account": "一般会計",
+    "code": "5-1-5",
+    "name": "消防団運営事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 18413,
+    "page": 139
+  },
+  {
+    "id": "003534",
+    "account": "一般会計",
+    "code": "5-1-6",
+    "name": "消防団活動事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 11272,
+    "page": 140
+  },
+  {
+    "id": "003553",
+    "account": "一般会計",
+    "code": "5-1-7",
+    "name": "消防団詰所維持管理事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 2064,
+    "page": 141
+  },
+  {
+    "id": "003570",
+    "account": "一般会計",
+    "code": "5-1-8",
+    "name": "消防団車両等維持管理事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 1855,
+    "page": 142
+  },
+  {
+    "id": "003678",
+    "account": "一般会計",
+    "code": "5-2-1",
+    "name": "防災行政無線維持管理事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 15936,
+    "page": 144
+  },
+  {
+    "id": "003403",
+    "account": "一般会計",
+    "code": "5-2-2",
+    "name": "消防職員研修費",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 1516,
+    "page": 145
+  },
+  {
+    "id": "003413",
+    "account": "一般会計",
+    "code": "5-2-3",
+    "name": "消防活動事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 9431,
+    "page": 146
+  },
+  {
+    "id": "003432",
+    "account": "一般会計",
+    "code": "5-2-4",
+    "name": "救急活動事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 5877,
+    "page": 147
+  },
+  {
+    "id": "003500",
+    "account": "一般会計",
+    "code": "5-2-5",
+    "name": "消防署車両等維持管理事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 6909,
+    "page": 148
+  },
+  {
+    "id": "003583",
+    "account": "一般会計",
+    "code": "5-2-6",
+    "name": "消防用水利費",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 1330,
+    "page": 149
+  },
+  {
+    "id": "003588",
+    "account": "一般会計",
+    "code": "5-2-7",
+    "name": "消防車両等整備事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 59133,
+    "page": 150
+  },
+  {
+    "id": "003603",
+    "account": "一般会計",
+    "code": "5-2-8",
+    "name": "共同指令センター運用管理事業",
+    "department": "消防総務課",
+    "policy": "防災・救急",
+    "amount": 12884,
+    "page": 151
+  },
+  {
+    "id": "003705",
+    "account": "一般会計",
+    "code": "5-3-1",
+    "name": "防災資機材備蓄食糧整備事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 18685,
+    "page": 153
+  },
+  {
+    "id": "003742",
+    "account": "一般会計",
+    "code": "5-3-2",
+    "name": "防災対策強化事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 11233,
+    "page": 154
+  },
+  {
+    "id": "002930",
+    "account": "一般会計",
+    "code": "5-3-3",
+    "name": "住宅耐震推進事業",
+    "department": "都市計画課",
+    "policy": "防災・救急",
+    "amount": 2813,
+    "page": 156
+  },
+  {
+    "id": "003458",
+    "account": "一般会計",
+    "code": "5-3-4",
+    "name": "予防活動事業",
+    "department": "予防課",
+    "policy": "防災・救急",
+    "amount": 752,
+    "page": 158
+  },
+  {
+    "id": "000801",
+    "account": "一般会計",
+    "code": "5-4-1",
+    "name": "交通安全・防犯対策事業",
+    "department": "防災安全課",
+    "policy": "防災・救急",
+    "amount": 3944,
+    "page": 160
+  },
+  {
+    "id": "003109",
+    "account": "一般会計",
+    "code": "6-1-1",
+    "name": "都市計画関連事業",
+    "department": "都市計画課",
+    "policy": "都市環境",
+    "amount": 10065,
+    "page": 162
+  },
+  {
+    "id": "003294",
+    "account": "一般会計",
+    "code": "6-1-2",
+    "name": "都市計画審議会運営費",
+    "department": "都市計画課",
+    "policy": "都市環境",
+    "amount": 150,
+    "page": 163
+  },
+  {
+    "id": "003104",
+    "account": "一般会計",
+    "code": "6-2-2",
+    "name": "景観計画関連事業",
+    "department": "都市計画課",
+    "policy": "都市環境",
+    "amount": 165,
+    "page": 166
+  },
+  {
+    "id": "008461",
+    "account": "一般会計",
+    "code": "6-2-3",
+    "name": "臨御橋架け替えプロジェクト推進事業",
+    "department": "産業振興課",
+    "policy": "都市環境",
+    "amount": 136000,
+    "page": 167
+  },
+  {
+    "id": "009601",
+    "account": "一般会計",
+    "code": "6-3-1",
+    "name": "地域公共交通会議運営事業",
+    "department": "政策課",
+    "policy": "都市環境",
+    "amount": 500,
+    "page": 169
+  },
+  {
+    "id": "011453",
+    "account": "一般会計",
+    "code": "6-3-2",
+    "name": "地域公共交通実証運行事業",
+    "department": "政策課",
+    "policy": "都市環境",
+    "amount": 34107,
+    "page": 170
+  },
+  {
+    "id": "000534",
+    "account": "一般会計",
+    "code": "6-4-1",
+    "name": "空家等対策推進事業",
+    "department": "政策課",
+    "policy": "都市環境",
+    "amount": 82,
+    "page": 172
+  },
+  {
+    "id": "002662",
+    "account": "一般会計",
+    "code": "7-1-1 7-2-2 7-3-1",
+    "name": "地場農産物振興対策事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 2640,
+    "page": 174
+  },
+  {
+    "id": "002719",
+    "account": "一般会計",
+    "code": "7-1-2 7-4-1 7-5-1",
+    "name": "水産振興対策事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 386,
+    "page": 176
+  },
+  {
+    "id": "002807",
+    "account": "一般会計",
+    "code": "7-1-3",
+    "name": "商工活動等支援事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 10610,
+    "page": 178
+  },
+  {
+    "id": "002815",
+    "account": "一般会計",
+    "code": "7-1-4",
+    "name": "住宅リフォーム資金助成事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 8000,
+    "page": 179
+  },
+  {
+    "id": "002834",
+    "account": "一般会計",
+    "code": "7-1-5 7-5-2",
+    "name": "観光振興対策事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 8301,
+    "page": 180
+  },
+  {
+    "id": "002645",
+    "account": "一般会計",
+    "code": "7-2-1",
+    "name": "町民農園促進事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 1369,
+    "page": 182
+  },
+  {
+    "id": "002689",
+    "account": "一般会計",
+    "code": "7-3-2",
+    "name": "畜産振興対策事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 280,
+    "page": 184
+  },
+  {
+    "id": "002758",
+    "account": "一般会計",
+    "code": "7-4-2",
+    "name": "漁業協同組合支援事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 1312,
+    "page": 186
+  },
+  {
+    "id": "002763",
+    "account": "一般会計",
+    "code": "7-4-3",
+    "name": "水産多面的機能発揮対策事業活動組織支援事業",
+    "department": "産業振興課",
+    "policy": "産業・観光",
+    "amount": 966,
+    "page": 187
+  },
+  {
+    "id": "002367",
+    "account": "一般会計",
+    "code": "8-1-1",
+    "name": "地球温暖化対策事業",
+    "department": "環境課",
+    "policy": "自然環境",
+    "amount": 14382,
+    "page": 192
+  },
+  {
+    "id": "000539",
+    "account": "一般会計",
+    "code": "8-2-1 8-3-1",
+    "name": "葉山の魅力創生・発信事業",
+    "department": "政策課",
+    "policy": "自然環境",
+    "amount": 959,
+    "page": 194
+  },
+  {
+    "id": "002290",
+    "account": "一般会計",
+    "code": "8-2-2",
+    "name": "緑の保全事業",
+    "department": "環境課",
+    "policy": "自然環境",
+    "amount": 22786,
+    "page": 195
+  },
+  {
+    "id": "002322",
+    "account": "一般会計",
+    "code": "8-3-2",
+    "name": "鳥獣保護管理対策事業",
+    "department": "環境課",
+    "policy": "自然環境",
+    "amount": 20755,
+    "page": 197
+  },
+  {
+    "id": "002440",
+    "account": "一般会計",
+    "code": "8-4-1",
+    "name": "ゼロ・ウェイスト推進事業",
+    "department": "環境課",
+    "policy": "自然環境",
+    "amount": 41841,
+    "page": 199
+  },
+  {
+    "id": "002476",
+    "account": "一般会計",
+    "code": "8-4-2",
+    "name": "ごみ収集事業",
+    "department": "クリーンセンター",
+    "policy": "自然環境",
+    "amount": 202123,
+    "page": 200
+  },
+  {
+    "id": "011509",
+    "account": "一般会計",
+    "code": "8-4-3",
+    "name": "生ごみ資源化処理事業",
+    "department": "クリーンセンター",
+    "policy": "自然環境",
+    "amount": 15910,
+    "page": 201
+  },
+  {
+    "id": "002565",
+    "account": "一般会計",
+    "code": "8-4-4",
+    "name": "廃棄物資源化・処分事業",
+    "department": "クリーンセンター",
+    "policy": "自然環境",
+    "amount": 257828,
+    "page": 202
+  },
+  {
+    "id": "011178",
+    "account": "一般会計",
+    "code": "8-6-1",
+    "name": "はやまクリーンプログラム推進事業",
+    "department": "政策課",
+    "policy": "自然環境",
+    "amount": 158,
+    "page": 206
+  },
+  {
+    "id": "004740",
+    "account": "一般会計",
+    "code": "9-1-1",
+    "name": "文化財保存活用事業",
+    "department": "生涯学習課",
+    "policy": "文化",
+    "amount": 2707,
+    "page": 208
+  },
+  {
+    "id": "001655",
+    "account": "一般会計",
+    "code": "9-2-1",
+    "name": "文化公演事業",
+    "department": "福祉課",
+    "policy": "文化",
+    "amount": 1694,
+    "page": 210
+  },
+  {
+    "id": "000820",
+    "account": "一般会計",
+    "code": "9-3-1",
+    "name": "草津町親善交流事業",
+    "department": "政策課",
+    "policy": "文化",
+    "amount": 1201,
+    "page": 213
+  },
+  {
+    "id": "009634",
+    "account": "一般会計",
+    "code": "9-3-2",
+    "name": "友好都市連携事業",
+    "department": "政策課",
+    "policy": "文化",
+    "amount": 686,
+    "page": 214
+  },
+  {
+    "id": "000838",
+    "account": "一般会計",
+    "code": "9-3-3",
+    "name": "国際交流事業",
+    "department": "政策課",
+    "policy": "文化",
+    "amount": 324,
+    "page": 215
+  },
+  {
+    "id": "000742",
+    "account": "一般会計",
+    "code": "9-4-1",
+    "name": "人権・同和啓発事業",
+    "department": "町民健康課",
+    "policy": "文化",
+    "amount": 971,
+    "page": 217
+  },
+  {
+    "id": "000787",
+    "account": "一般会計",
+    "code": "9-4-2",
+    "name": "犯罪被害者等支援事業",
+    "department": "町民健康課",
+    "policy": "文化",
+    "amount": 1442,
+    "page": 218
+  },
+  {
+    "id": "000764",
+    "account": "一般会計",
+    "code": "9-5-1",
+    "name": "ジェンダー平等推進事業",
+    "department": "町民健康課",
+    "policy": "文化",
+    "amount": 321,
+    "page": 220
+  },
+  {
+    "id": "000485",
+    "account": "一般会計",
+    "code": "9-6-1",
+    "name": "非核平和推進事業",
+    "department": "政策課",
+    "policy": "文化",
+    "amount": 127,
+    "page": 222
+  },
+  {
+    "id": "000605",
+    "account": "一般会計",
+    "code": "10-1-1 10-2-1 10-3-1",
+    "name": "ＩＣＴ推進事業",
+    "department": "総務課",
+    "policy": "ＤＸ",
+    "amount": 62954,
+    "page": 224
+  },
+  {
+    "id": "000633",
+    "account": "一般会計",
+    "code": "10-1-2 10-2-2 10-3-2",
+    "name": "神奈川県町村情報システム共同事業",
+    "department": "総務課",
+    "policy": "ＤＸ",
+    "amount": 231809,
+    "page": 225
+  },
+  {
+    "id": "000661",
+    "account": "一般会計",
+    "code": "10-1-3 10-2-3 10-3-3",
+    "name": "共同運営システム開発事業",
+    "department": "総務課",
+    "policy": "ＤＸ",
+    "amount": 1761,
+    "page": 227
+  },
+  {
+    "id": "000320",
+    "account": "一般会計",
+    "code": "11-1-1",
+    "name": "財政管理事業",
+    "department": "財政課",
+    "policy": "行財政",
+    "amount": 77636,
+    "page": 229
+  },
+  {
+    "id": "000907",
+    "account": "一般会計",
+    "code": "11-2-1",
+    "name": "課税事務費",
+    "department": "税務課",
+    "policy": "行財政",
+    "amount": 19371,
+    "page": 231
+  },
+  {
+    "id": "000363",
+    "account": "一般会計",
+    "code": "11-3-1",
+    "name": "会計事務事業",
+    "department": "会計課",
+    "policy": "行財政",
+    "amount": 12256,
+    "page": 234
+  },
+  {
+    "id": "000553",
+    "account": "一般会計",
+    "code": "11-4-1",
+    "name": "広報紙発行事業",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 16268,
+    "page": 236
+  },
+  {
+    "id": "000582",
+    "account": "一般会計",
+    "code": "11-4-2",
+    "name": "町ＰＲ事業",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 4787,
+    "page": 237
+  },
+  {
+    "id": "000474",
+    "account": "一般会計",
+    "code": "11-4-3",
+    "name": "協働推進事業",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 9148,
+    "page": 238
+  },
+  {
+    "id": "000508",
+    "account": "一般会計",
+    "code": "11-4-4",
+    "name": "町内（自治）会支援事業",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 10434,
+    "page": 239
+  },
+  {
+    "id": "000598",
+    "account": "一般会計",
+    "code": "11-5-1",
+    "name": "広聴推進経費",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 0,
+    "page": 241
+  },
+  {
+    "id": "000856",
+    "account": "一般会計",
+    "code": "11-5-2",
+    "name": "総合計画審議会運営事業",
+    "department": "政策課",
+    "policy": "行財政",
+    "amount": 298,
+    "page": 242
+  },
+  {
+    "id": "000697",
+    "account": "一般会計",
+    "code": "11-6-1",
+    "name": "町民相談事業",
+    "department": "町民健康課",
+    "policy": "行財政",
+    "amount": 1480,
+    "page": 244
+  },
+  {
+    "id": "000723",
+    "account": "一般会計",
+    "code": "11-6-2",
+    "name": "消費者育成対策事業",
+    "department": "町民健康課",
+    "policy": "行財政",
+    "amount": 1247,
+    "page": 245
+  },
+  {
+    "id": "000436",
+    "account": "一般会計",
+    "code": "12-1-1 12-2-1",
+    "name": "みんなの公共施設未来プロジェクト推進事業",
+    "department": "公共施設課",
+    "policy": "公共施設",
+    "amount": 64,
+    "page": 247
+  },
+  {
+    "id": "000197",
+    "account": "一般会計",
+    "code": "14-1-1",
+    "name": "一般事務運営事業",
+    "department": "総務課",
+    "policy": "人材",
+    "amount": 56929,
+    "page": 253
+  },
+  {
+    "id": "000126",
+    "account": "一般会計",
+    "code": "14-2-1",
+    "name": "職員研修事業",
+    "department": "総務課",
+    "policy": "人材",
+    "amount": 4350,
+    "page": 255
+  },
+  {
+    "id": "000141",
+    "account": "一般会計",
+    "code": "14-3-1",
+    "name": "職員福利厚生事業",
+    "department": "総務課",
+    "policy": "人材",
+    "amount": 10354,
+    "page": 257
+  },
+  {
+    "id": "002966",
+    "account": "一般会計",
+    "code": "15-1-1",
+    "name": "街路灯設置管理事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 17753,
+    "page": 259
+  },
+  {
+    "id": "002978",
+    "account": "一般会計",
+    "code": "15-1-2",
+    "name": "道路境界査定事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 2188,
+    "page": 260
+  },
+  {
+    "id": "003023",
+    "account": "一般会計",
+    "code": "15-1-3 15-3-1",
+    "name": "道路維持整備事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 227500,
+    "page": 261
+  },
+  {
+    "id": "003032",
+    "account": "一般会計",
+    "code": "15-1-4",
+    "name": "交通安全施設整備事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 4000,
+    "page": 262
+  },
+  {
+    "id": "003043",
+    "account": "一般会計",
+    "code": "15-1-5",
+    "name": "道路維持管理事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 13082,
+    "page": 263
+  },
+  {
+    "id": "012036",
+    "account": "一般会計",
+    "code": "15-1-6",
+    "name": "狭あい道路拡幅整備事業",
+    "department": "都市計画課",
+    "policy": "都市インフラ",
+    "amount": 7900,
+    "page": 264
+  },
+  {
+    "id": "003123",
+    "account": "一般会計",
+    "code": "15-2-1",
+    "name": "街路整備事業",
+    "department": "都市計画課",
+    "policy": "都市インフラ",
+    "amount": 25,
+    "page": 266
+  },
+  {
+    "id": "003068",
+    "account": "一般会計",
+    "code": "15-4-1",
+    "name": "河川維持補修事業",
+    "department": "道路河川課",
+    "policy": "都市インフラ",
+    "amount": 40432,
+    "page": 269
+  },
+  {
+    "id": "003166",
+    "account": "一般会計",
+    "code": "15-5-1",
+    "name": "公園管理事業",
+    "department": "都市計画課",
+    "policy": "都市インフラ",
+    "amount": 61156,
+    "page": 271
+  },
+  {
+    "id": "002352",
+    "account": "一般会計",
+    "code": "15-10-1 15-11-1",
+    "name": "合併処理浄化槽補助事業",
+    "department": "環境課",
+    "policy": "都市インフラ",
+    "amount": 30560,
+    "page": 275
+  }
+]
