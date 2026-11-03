@@ -1,9 +1,13 @@
 'use client';
 
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import { SankeyChart } from '@/client/components/mof-budget/SankeyChart';
 import { budget, settlement, total } from '@/app/lib/hayama/data';
 import { hayamaGraph } from '@/app/lib/hayama/graph';
+
+const sourceSha = process.env.NEXT_PUBLIC_HAYAMA_SOURCE_SHA;
+const sourceUrl = sourceSha ? `https://github.com/yasunogithub/rs-vis/tree/${sourceSha}` : 'https://github.com/yasunogithub/rs-vis';
 
 const oku = (thousandYen: number) => `${(thousandYen / 100000).toFixed(2)}億円`;
 
@@ -13,7 +17,7 @@ export function HayamaView() {
   const graph = useMemo(() => hayamaGraph(data), [data]);
   const revenue = total(data.revenue), expense = total(data.expenditure);
   return <div className="min-h-screen bg-background text-mirai-text">
-    <header className="border-b border-mirai-border bg-card"><div className="mx-auto max-w-7xl px-4 py-4"><a href="/" className="text-lg font-bold">葉山町予算ビュー</a><span className="ml-3 text-xs">非公式</span></div></header>
+    <header className="border-b border-mirai-border bg-card"><div className="mx-auto max-w-7xl px-4 py-4"><Link href="/" className="text-lg font-bold">葉山町予算ビュー</Link><span className="ml-3 text-xs">非公式</span></div></header>
     <main className="mx-auto max-w-7xl space-y-6 px-4 py-6">
       <div><h1 className="text-2xl font-bold">葉山町のお金の流れ</h1><p className="mt-2 text-sm leading-relaxed">葉山町の公表資料に基づく一般会計の集計です。このサイトは町の公式サイトではありません。</p></div>
       <div className="flex flex-wrap gap-2" role="group" aria-label="資料の選択">
@@ -29,7 +33,7 @@ export function HayamaView() {
         <details className="my-4"><summary className="cursor-pointer font-bold">図の内訳を表で見る（千円）</summary><div className="mt-3 grid gap-4 sm:grid-cols-2">{([['歳入', data.revenue], ['歳出（目的別）', data.expenditure]] as const).map(([label, items]) => <table key={label} className="w-full text-sm"><caption className="text-left font-bold">{label}</caption><thead><tr><th className="text-left">区分</th><th className="text-right">金額（千円）</th></tr></thead><tbody>{items.map(([name, amount]) => <tr key={name}><td>{name}</td><td className="text-right tabular-nums">{amount.toLocaleString('ja-JP')}</td></tr>)}</tbody></table>)}</div></details>
         <a className="text-sm underline" href={data.source} target="_blank" rel="noreferrer">町の{data.title}資料（PDF）を開く</a>
       </section>
-      <section className="rounded-xl border border-mirai-border bg-card p-4"><h2 className="text-lg font-bold">データについて</h2><p className="mt-2 text-sm leading-relaxed">各資料の千円単位の金額を円に換算して描画しています。特別会計、事業別の支出先、契約・再委託、事業評価などは葉山町の対応データが未整備のため提供していません。ゼロや推定値として扱っていません。</p><p className="mt-2 text-sm"><a href="https://github.com/yasunogithub/rs-vis/tree/hayama-native-complete" className="underline">ソースコード</a> ・ <a href="/LICENSE.txt" className="underline">ライセンス（AGPL-3.0）</a></p></section>
+      <section className="rounded-xl border border-mirai-border bg-card p-4"><h2 className="text-lg font-bold">データについて</h2><p className="mt-2 text-sm leading-relaxed">各資料の千円単位の金額を円に換算して描画しています。特別会計、事業別の支出先、契約・再委託、事業評価などは葉山町の対応データが未整備のため提供していません。ゼロや推定値として扱っていません。</p><p className="mt-2 text-sm"><a href={sourceUrl} className="underline">この版のソースコード</a> ・ <a href="/LICENSE.txt" className="underline">ライセンス（AGPL-3.0）</a></p><p className="mt-2 text-sm">このサイトは <a href="https://github.com/team-mirai-volunteer/rs-vis" className="underline">team-mirai-volunteer/rs-vis</a> のサンキー図を利用し、葉山町の公表資料に合わせて変更しています。</p></section>
     </main>
   </div>;
 }
