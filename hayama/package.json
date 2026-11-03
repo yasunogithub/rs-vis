@@ -1,0 +1,10 @@
+{
+  "name": "hayama-budget-worker",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix .. ci && npm --prefix .. run build"
+  },
+  "devDependencies": {
+    "wrangler": "4.156.2"
+  }
+}
