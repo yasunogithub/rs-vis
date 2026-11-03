@@ -94,3 +94,5 @@ tests/fixtures/fiscal-demographics/oecd_selsa_wp299_fertility_family_policy_2023
 
 # Isolated Hayama static export
 /hayama-dist/
+
+/hayama/node_modules/

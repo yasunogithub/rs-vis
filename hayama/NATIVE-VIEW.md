@@ -20,3 +20,9 @@ Cloudflare では **生成した `hayama-dist/` のみ**を静的アセットと
 ビルドは追跡ファイルに未コミット変更があると失敗し、Git の HEAD を画面のソースリンクに埋め込む。Git履歴を含むチェックアウトが必要。配備前には出力のリンク先が配備コミットと一致することを確認すること。静的出力自体はクラウドへの配備・権限設定を行わない。
 
 `wrangler.hayama.jsonc` は静的アセットのみと404応答の設定案であり、Worker名とルートを意図的に指定していない。対象を確認して `--config` と `--name` を明示するまで配備設定として使わない。既存 Worker を置き換える影響とプレビューを確認すること。
+
+## Cloudflare の `/hayama` ビルド
+
+現在確認された Workers Builds の Root directory `/hayama`、build command `bun run build`、deploy command `bunx wrangler deploy` に対応する。`hayama/package.json` の build はリポジトリルートの `npm ci` と `npm run build` を順に実行し、ルートの `package-lock.json` に従って依存を導入する。`hayama/bun.lock` は Wrangler とその依存を固定する。`hayama/wrangler.jsonc` は `../hayama-dist` の静的ファイルのみを assets として指定し、旧 `hayama/index.html` やルートの `public/` を配信しない。404 応答を指定する。
+
+Workers Builds の Preview・Production の設定と既存 Worker のルート、配備後の実際の内容とリンクを確認するまでは公開しない。ローカルでのビルド成功はクラウド上での配備成功を保証しない。
