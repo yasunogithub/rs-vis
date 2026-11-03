@@ -26,6 +26,7 @@
     "dev": "next dev --turbopack",
     "build": "node scripts/build-hayama-static.mjs",
     "build:hayama": "node scripts/build-hayama-static.mjs",
+    "generate:hayama-ogp": "node scripts/generate-hayama-ogp.mjs",
     "start": "next start",
     "lint": "next lint --dir app --dir client --dir components --dir types",
     "check-traces": "node scripts/check-function-traces.mjs",
