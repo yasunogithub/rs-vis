@@ -1,0 +1,12 @@
+{
+  // Deliberately no Worker name or route: select and verify the target separately.
+  // This file is not auto-selected by Wrangler; deployment requires --config.
+  // Misato only: serves ./misato-dist (the /misato route). The Hayama Worker
+  // (wrangler.hayama.jsonc, ./hayama-dist) is untouched.
+  "compatibility_date": "2026-11-03",
+  "previews": {},
+  "assets": {
+    "directory": "./misato-dist",
+    "not_found_handling": "404-page"
+  }
+}

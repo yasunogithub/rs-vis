@@ -1,0 +1,1 @@
+{"devDependencies":{"wrangler":"4.156.2"},"name":"misato-budget-worker","private":true,"scripts":{"build":"npm --prefix .. ci && npm --prefix .. run build:misato"}}

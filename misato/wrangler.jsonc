@@ -1,0 +1,12 @@
+{
+  // Separate Worker for the Misato site (the Hayama Worker is "rs-vis").
+  // Cloudflare Workers Builds: root directory "misato", build command
+  // "bun run build", deploy command "bunx wrangler deploy".
+  "name": "rs-vis-misato",
+  "compatibility_date": "2026-11-03",
+  "previews": {},
+  "assets": {
+    "directory": "../misato-dist",
+    "not_found_handling": "404-page"
+  }
+}
