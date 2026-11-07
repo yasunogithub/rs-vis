@@ -4,7 +4,8 @@
 // staged. Instead the staging tree generates its own root page (the Misato
 // view at /) and a root layout built from the Misato metadata, so canonical
 // and OGP URLs never point at the Hayama site. The /misato route is staged
-// as well and shows the same view. No Misato OGP image exists yet.
+// as well and shows the same view. Only the Misato OGP image is copied from
+// public/, mirroring the Hayama build.
 import { mkdtemp, mkdir, cp, writeFile, symlink, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join, dirname } from 'node:path';
@@ -20,7 +21,7 @@ if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error('Invalid Git commit SHA');
 if (git('status', '--porcelain', '--untracked-files=no')) throw new Error('Commit tracked changes before building so the source link is exact');
 const stage = await mkdtemp(join(tmpdir(), 'misato-export-'));
 const files = [
-  'app/globals.css', 'app/favicon.ico',
+  'app/globals.css', 'app/favicon.ico', 'public/ogp-misato.png',
   'app/misato/page.tsx', 'app/misato/layout.tsx',
   'app/lib/misato/metadata.ts', 'app/lib/misato/data.ts', 'app/lib/misato/graph.ts',
   'app/lib/mof-sankey-layout.ts', 'app/lib/mof-sankey-constants.ts',
@@ -41,8 +42,8 @@ try {
   await writeFile(join(stage, 'app/layout.tsx'), [
     'import type { Metadata, Viewport } from "next";',
     'import "./globals.css";',
-    "import { title, description, openGraph } from './lib/misato/metadata';",
-    "export const metadata: Metadata = { title, description, alternates: { canonical: '/' }, openGraph: { ...openGraph, url: '/' } };",
+    "import { title, description, openGraph, image, siteUrl } from './lib/misato/metadata';",
+    "export const metadata: Metadata = { metadataBase: new URL(siteUrl), title, description, alternates: { canonical: '/' }, openGraph: { ...openGraph, url: '/' }, twitter: { card: 'summary_large_image', title, description, images: [image] } };",
     'export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#2aa693" };',
     'export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {',
     '  return (<html lang="ja" suppressHydrationWarning><body className="font-sans antialiased bg-background text-foreground" suppressHydrationWarning>{children}</body></html>);',
